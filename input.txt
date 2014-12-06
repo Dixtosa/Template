@@ -1,0 +1,11 @@
+10
+int a
+int x
+{
+a=50
+int a
+a=60
+x=a
+print x
+}
+print a
