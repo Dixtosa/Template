@@ -54,6 +54,7 @@ int main()
 	#else
 	//freopen(File".in", "r", stdin); freopen(File".out", "w", stdout);
 	#endif
+	ios_base::sync_with_stdio(false);cin.tie(NULL);
 
 
 	//printf("\n\ntime-%.3lf", clock()*1e-3);
