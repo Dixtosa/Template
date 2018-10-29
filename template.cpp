@@ -25,12 +25,7 @@ LANG: C++11
 #include <stack>
 #include <sstream>
 #include <assert.h>
-#include <functional> //std::greater<int>
-//#include <tuple>
-
-//#include "Biginteger.cpp"
-//#include "sqrt.cpp"
-//#include "funcs.cpp"
+#include <functional>
 
 typedef long long ll;
 typedef std::pair<ll,ll> pii;
@@ -44,6 +39,7 @@ typedef std::pair<ll,ll> pii;
 #define INF (1<<30)
 #define v vector
 #define File "FILENAME"
+#define endl '\n'
 using namespace std;
 
 
