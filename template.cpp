@@ -38,7 +38,8 @@ typedef std::pair<ll,ll> pii;
 #define LINF (1LL<<60)
 #define INF (1<<30)
 #define v vector
-#define File "FILENAME"
+//g++ file.cpp -D_DEBUG; ./a.out ;cat output.txt
+//#define File "FILENAME"
 #define endl '\n'
 using namespace std;
 
@@ -47,10 +48,11 @@ int main()
 {
 	#if defined(_DEBUG) || defined(_RELEASE)
 	freopen("input.txt", "r", stdin); freopen("output.txt", "w", stdout);
+	#elif defined(File)
+	freopen(File".in", "r", stdin); freopen(File".out", "w", stdout);
 	#else
-	//freopen(File".in", "r", stdin); freopen(File".out", "w", stdout);
-	#endif
 	ios_base::sync_with_stdio(false);cin.tie(NULL);
+	#endif
 
 
 	//printf("\n\ntime-%.3lf", clock()*1e-3);
