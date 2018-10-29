@@ -39,6 +39,7 @@ typedef std::pair<ll,ll> pii;
 #define INF (1<<30)
 #define v vector
 #define endl '\n'
+//printf("\n\ntime-%.3lf", clock()*1e-3);
 //g++ file.cpp -D_DEBUG; ./a.out ;cat output.txt
 //#define File "FILENAME"
 using namespace std;
@@ -51,6 +52,7 @@ void handleInput() {
 	ios_base::sync_with_stdio(false);cin.tie(NULL);
 	#endif
 }
+//YOUR CODE STARTS HERE
 
 
 
@@ -59,6 +61,5 @@ int main()
 {
 	handleInput();
 
-	//printf("\n\ntime-%.3lf", clock()*1e-3);
 	return 0;
 }
