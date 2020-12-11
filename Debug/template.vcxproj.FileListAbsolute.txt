@@ -1,2 +1,0 @@
-C:\Users\Dixto\Desktop\CP\C++\Template\Debug\template.exe
-C:\Users\Dixto\Desktop\CP\C++\Template\Debug\template.pdb
