@@ -4,5 +4,5 @@
 
 /.vs/template/v16
 
-/Debug/*
-/Release/*
+/Debug
+/Release
